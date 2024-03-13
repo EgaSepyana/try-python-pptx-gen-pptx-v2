@@ -1,0 +1,75 @@
+{
+    "paperSize": [
+        1200,
+        900
+    ],
+    "slides": [
+        {
+            "widgets": [
+                {
+                    "id": "https://echarts.apache.org/examples/en/editor.html?c=bar-polar-real-estate",
+                    "top": 4.8,
+                    "left": 0.6,
+                    "width": 7.14,
+                    "height": 7.14,
+                    "widget": {
+                        "type": "chart",
+                        "value":{
+                            "chart_type": "pie",
+                            "chart_data":{
+                                "catagories_name": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                                "series":{
+                                    "series_name" : "25 Jan 00:00",
+                                    "category_data" : [451,200, 123, 345, 60]
+                                }
+                            },
+
+                            "option":{
+                                "exploded":true,
+                                "title":{
+                                    "font_style_setting":{
+                                        "size_pt": 30,
+                                        "bold": true,
+                                        "italic": false,
+                                        "underline": true,
+                                        "font_color_hex": "808080"
+                                    }
+                                },
+                                "legend":{
+                                    "legend_potision": "left",
+                                    "include_in_layout": false,
+                                    "font_style_setting":{
+                                            "size_pt": 14
+                                        }
+                                },
+                                "plots":{
+                                    "style":{
+                                        "color": ["FFC0CB", "FFC0CB","FFC0CB","FFC0CB","FFC0CB"]
+                                    },
+                                    "data_label":{
+                                        "label_position": "BEST_FIT",
+                                        "label_contains_option":{
+                                            "series_name": true,
+                                            "category_name" : true,
+                                            "show_value": true,
+                                            "presentage": true,
+                                            "legend_key": true
+                                        },
+                                    "number_formating": "general",
+                                    "font_style_setting":{
+                                        "size_pt": 14
+                                    }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    
+    ]
+    
+}
+    
+    

@@ -1,0 +1,108 @@
+{
+    "paperSize": [
+        1200,
+        900
+    ],
+    "slides": [
+        {
+            "widgets": [
+                {
+                    "id": "https://echarts.apache.org/examples/en/editor.html?c=bar-polar-real-estate",
+                    "top": 4.8,
+                    "left": 0.6,
+                    "width": 7.14,
+                    "height": 7.14,
+                    "widget": {
+                        "type": "chart",
+                        "value":{
+                            "chart_type": "bar",
+                            "chart_data":{
+                                "catagories_name": ["Berau", "Kutai Bara","Kutai Kartanegara","Kutai Timur","Paser","Penajam Paser Utara","Kota Balikpapan","Kota Bontang","Kota Samarinda"],
+                                "series":[
+                                    {
+                                    "series_name" : "2018",
+                                    "category_data" : [149,94,525,181,248,129,518,146,579]
+
+                                    },
+                                    {
+                                    "series_name" : "2019",
+                                    "category_data" : [181,96,598,209,267,150,564,156,625]
+
+                                    }
+                                ]
+                            },
+
+                            "option":{
+                                "type" : "COLUMN_CLUSTERED",
+                                "catagorie_axis":{
+                                    "visible": true,
+                                    "has_major_grid_lines": false,
+                                    "has_minor_grid_lines": false,
+                                    "font_style_setting":{
+                                        "size_pt": 18,
+                                        "bold": false,
+                                        "italic": false,
+                                        "underline": false
+                                    }
+                                },
+                                "value_axis":{
+                                    "visible": true,
+                                    "has_major_grid_lines": false,
+                                    "has_minor_grid_lines": false,
+                                    "font_style_setting":{
+                                        "size_pt": 18,
+                                        "bold": false,
+                                        "italic": false,
+                                        "underline": false
+                                    }
+                                },
+                                "title":{
+                                    "font_style_setting":{
+                                        "size_pt": 30,
+                                        "bold": true,
+                                        "italic": false,
+                                        "underline": true,
+                                        "font_color_hex": "808080"
+                                    }
+                                },
+                                "legend":{
+                                    "legend_potision": "left",
+                                    "include_in_layout": false,
+                                    "font_style_setting":{
+                                            "size_pt": 14
+                                        }
+                                },
+                                "series_style":{
+                                    "color": ["4472C4","ED7D31"],
+                                    "gap_widht": 247,
+                                    "overlap" : -81
+                                },
+                                "plots":{   
+                                    "style":{
+                                        "color": ["FFC0CB", "FFC0CB","FFC0CB","FFC0CB","FFC0CB"]
+                                    },
+                                    "data_label":{
+                                        "label_position": "BEST_FIT",
+                                        "label_contains_option":{
+                                            "series_name": true,
+                                            "category_name" : true,
+                                            "show_value": true,
+                                            "presentage": true,
+                                            "legend_key": true
+                                        },
+                                    "number_formating": "general",
+                                    "font_style_setting":{
+                                        "size_pt": 14
+                                    }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    
+    ]
+    
+}
